@@ -1,2 +1,2 @@
 # Minichat
-Minichat project NSY107
+Minichat project NSY103

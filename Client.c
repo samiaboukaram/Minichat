@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 struct hostent *server;
 struct sockaddr_in serv_addr/*, cli_addr*/;
 
- if((argc < 3) && (argc > 4)) {
+ if((argc < 3) || (argc > 4)) {
  fprintf(stderr, "Ussage: %s + IP Address + port No. Append a 1 to turn verbose on.\n", argv[0]);
  exit(EXIT_FAILURE);
  }
